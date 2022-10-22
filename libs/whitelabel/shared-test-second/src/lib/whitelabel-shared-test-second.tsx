@@ -4,7 +4,15 @@ import styled from 'styled-components';
 export interface WhitelabelSharedTestSecondProps {}
 
 const StyledWhitelabelSharedTestSecond = styled.div`
-  color: pink;
+  width: 200px;
+  height: 100px;
+  padding: 5rem;
+  border-radius: 30px;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export function WhitelabelSharedTestSecond(
@@ -12,7 +20,7 @@ export function WhitelabelSharedTestSecond(
 ) {
   return (
     <StyledWhitelabelSharedTestSecond>
-      <h1>Welcome to WhitelabelSharedTestSecond!</h1>
+      <h1>composant partagé</h1>
     </StyledWhitelabelSharedTestSecond>
   );
 }
