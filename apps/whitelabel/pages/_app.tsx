@@ -1,6 +1,7 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import './styles.css';
+import { WhitelabelSharedTestSecond } from "@whitelabel-monorepo-test/whitelabel/shared-test-second"
 
 function CustomApp({ Component, pageProps }: AppProps) {
   return (
@@ -8,6 +9,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Welcome to whitelabel!</title>
       </Head>
+      <WhitelabelSharedTestSecond />
       <main className="app">
         <Component {...pageProps} />
       </main>

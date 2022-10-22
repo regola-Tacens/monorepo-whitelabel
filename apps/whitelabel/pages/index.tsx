@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import TestComponent from '../components/test-component/test-component';
 
 const StyledPage = styled.div`
   .page {

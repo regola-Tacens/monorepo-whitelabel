@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@whitelabel-monorepo-test/=store/ui-shared": [
+        "libs/=store/ui-shared/src/index.ts"
+      ],
+      "@whitelabel-monorepo-test/whitelabel/shared-test-second": [
+        "libs/whitelabel/shared-test-second/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
